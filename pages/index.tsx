@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Home = () => (
   <>
@@ -18,5 +18,5 @@ export default Home;
 
 const Title = styled.h1`
   color: red;
-  font-family: ${({ theme: { fontFamily }}) => fontFamily};
+  font-family: ${({ theme: { fontFamily } }) => fontFamily};
 `;
