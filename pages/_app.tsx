@@ -1,8 +1,10 @@
 import { AppProps } from 'next/app';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import GlobalStyle from '../styles/global-styles';
+import theme from '../styles/theme';
 
 const App = ({ Component, pageProps }: AppProps) => (
-  <ThemeProvider theme={{ fontFamily: 'Arial, Helvetica, sans-serif' }}>
+  <ThemeProvider theme={theme}>
     <>
       <GlobalStyle />
       <Component {...pageProps} />
@@ -11,15 +13,3 @@ const App = ({ Component, pageProps }: AppProps) => (
 );
 
 export default App;
-
-const GlobalStyle = createGlobalStyle`
-  html {
-    box-sizing: border-box;
-  }
-
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-`;

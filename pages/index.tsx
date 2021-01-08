@@ -17,6 +17,6 @@ const Home = () => (
 export default Home;
 
 const Title = styled.h1`
-  color: red;
-  font-family: ${({ theme: { fontFamily } }) => fontFamily};
+  font-family: 'Wremena, sans';
+  margin-left: ${({ theme: { spacing } }) => spacing[4]};
 `;
