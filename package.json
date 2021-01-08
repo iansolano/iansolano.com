@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit && eslint --ext .ts,.tsx",
-    "lint:fix": "yarn lint -- --fix",
+    "lint:fix": "yarn lint --fix",
     "lint:css": "stylelint '**/*.{ts,tsx}'"
   },
   "husky": {
