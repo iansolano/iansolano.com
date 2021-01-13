@@ -1,14 +1,11 @@
-import Head from 'next/head';
-import Home from '../components/home';
+import Meta from '../components/meta';
 import Header from '../components/header';
+import Home from '../components/home';
 import Footer from '../components/footer';
 
 const HomePage = () => (
   <>
-    <Head>
-      <title>Ian Solano-Kamaiko</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+    <Meta />
     <Header />
     <Home />
     <Footer />
