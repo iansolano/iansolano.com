@@ -1,22 +1,18 @@
 import Head from 'next/head';
-import styled from 'styled-components';
+import Home from '../components/home';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
-const Home = () => (
+const HomePage = () => (
   <>
     <Head>
       <title>Ian Solano-Kamaiko</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main>
-      <Title>Title</Title>
-      <p>hello</p>
-    </main>
+    <Header />
+    <Home />
+    <Footer />
   </>
 );
 
-export default Home;
-
-const Title = styled.h1`
-  font-family: 'Wremena, sans';
-  margin-left: ${({ theme: { spacing } }) => spacing[4]};
-`;
+export default HomePage;

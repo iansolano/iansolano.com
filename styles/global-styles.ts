@@ -5,11 +5,15 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 16px;
+    min-height: 100%;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
+    background: ${theme.colors.secondary};
+    background: linear-gradient(180deg, ${theme.colors.secondary} 0%, ${theme.colors.tertiary} 100%);
     font-family: ${theme.fonts.primary};
+    height: 100%;
     margin: 0;
   }
 

@@ -9,6 +9,7 @@ export interface ThemeProps {
   spacing: Array<string>;
   percentages: {
     fourth: string;
+    third: string;
     half: string;
     full: string;
   };
@@ -45,11 +46,12 @@ const theme: ThemeProps = {
   spacing: ['0.25rem', '0.5rem', '1rem', '2rem', '4rem', '8rem'],
   percentages: {
     fourth: '25%',
+    third: '33.3%',
     half: '50%',
     full: '100%',
   },
   breakpoints: [480, 768, 1024, 1280],
-  borderWidths: ['0rem', '0.125rem'],
+  borderWidths: ['0rem', '0.1rem', '0.125rem'],
   borderRadius: ['0.25rem', '100%'],
   fonts: {
     primary: 'Wremena, serif',
