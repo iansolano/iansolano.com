@@ -21,12 +21,12 @@ const App = ({ Component, pageProps }: AppProps) => {
   }, [router.events]);
 
   return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyle />
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
         <Component {...pageProps} />
-      </>
-    </ThemeProvider>
+      </ThemeProvider>
+    </>
   );
 };
 
