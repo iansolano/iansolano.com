@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useEffect } from 'react';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import GlobalStyle from '../styles/global-styles';
 import theme from '../styles/theme';

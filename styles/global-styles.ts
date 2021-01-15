@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 16px;
-    min-height: 100%;
+    min-height: ${theme.percentages.full};
   }
 
   body {
@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
     background: ${theme.colors.secondary};
     background: linear-gradient(180deg, ${theme.colors.secondary} 0%, ${theme.colors.tertiary} 100%);
     font-family: ${theme.fonts.primary};
-    height: 100%;
+    height: ${theme.percentages.full};
     margin: 0;
   }
 
