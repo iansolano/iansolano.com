@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 
-import { px2rem } from '../styles/style-utils';
+import { px2rem, media } from '../styles/style-utils';
 
 type HoverCopyProps = {
   copy: string;
@@ -53,11 +53,13 @@ const ImageContent = styled.div`
 `;
 
 const Cta = styled.span`
-  cursor: pointer;
-  text-decoration: underline;
-  transition: ${({ theme: { transitions } }) => transitions.medium};
+  ${media.sm`
+    cursor: pointer;
+    text-decoration: underline;
+    transition: ${({ theme: { transitions } }) => transitions.medium};
 
-  &:hover {
-    color: ${({ theme: { colors } }) => colors.primary};
-  }
+    &:hover {
+      color: ${({ theme: { colors } }) => colors.primary};
+    }
+  `}
 `;

@@ -65,13 +65,14 @@ const Home = () => (
 export default Home;
 
 const Container = styled.section`
-  max-width: ${({ theme: { breakpoints } }) => px2rem(breakpoints[1])};
-  margin: ${({ theme: { spacing } }) => `0 ${spacing[2]}`};
+  padding: ${({ theme: { spacing } }) => `0 ${spacing[2]}`};
   position: relative;
 
   ${media.md`
-    margin: ${({ theme: { spacing } }) =>
+    max-width: ${({ theme: { breakpoints } }) => px2rem(breakpoints[3])};
+    padding: ${({ theme: { spacing } }) =>
       `0 calc(${spacing[1]} + ${spacing[3]})`};
+    width: 70%;
   `}
 `;
 

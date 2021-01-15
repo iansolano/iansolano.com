@@ -9,9 +9,8 @@ const Header = () => (
       <Image
         src="/assets/headshot.png"
         alt="Headshot of Ian Solano-Kamaiko"
-        layout="fixed"
-        width={60}
-        height={60}
+        layout="fill"
+        objectFit="contain"
       />
     </ImageContainer>
     <Items>
@@ -42,6 +41,7 @@ const Container = styled.header`
 const ImageContainer = styled.div`
   display: flex;
   height: ${px2rem(60)};
+  position: relative;
   width: ${px2rem(60)};
 `;
 

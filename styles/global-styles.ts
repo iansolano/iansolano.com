@@ -1,17 +1,24 @@
 import { createGlobalStyle } from 'styled-components';
+import { media } from './style-utils';
 import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
     min-height: ${theme.percentages.full};
+
+    ${media.md`
+      font-size: 16px;
+    `}
   }
 
   body {
     -webkit-font-smoothing: antialiased;
     background: ${theme.colors.secondary};
-    background: linear-gradient(180deg, ${theme.colors.secondary} 0%, ${theme.colors.tertiary} 100%);
+    background: linear-gradient(
+      180deg, ${theme.colors.secondary} 0%,
+      ${theme.colors.tertiary} ${theme.percentages.full});
     font-family: ${theme.fonts.primary};
     height: ${theme.percentages.full};
     margin: 0;
