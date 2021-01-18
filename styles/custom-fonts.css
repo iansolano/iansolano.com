@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Wremena';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('/fonts/Wremena-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pitch Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/PitchSans-Medium.woff2') format('woff2');
+}

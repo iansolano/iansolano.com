@@ -35,26 +35,27 @@ type ImageContainerProps = {
   isVisible: boolean;
 };
 
+const IMAGE_SIZE = 320;
 const ImageContainer = styled.div<ImageContainerProps>`
   display: ${({ isVisible }) => (isVisible ? 'block' : 'none')};
   position: fixed;
   max-width: 35%;
-  min-width: ${px2rem(320)};
-  right: 0;
+  min-width: ${px2rem(IMAGE_SIZE)};
+  right: ${({ theme: { spacing } }) => `calc(${spacing[1]} + ${spacing[3]})`};
   width: ${({ theme: { percentages } }) => percentages.full};
   top: ${({ theme: { percentages } }) => percentages.half};
-  transform: translate(-${({ theme: { spacing } }) => spacing[4]}, -50%);
-  z-index: ${({ theme: { zIndex } }) => zIndex[1]};
+  transform: translateY(-50%);
 `;
 
-const ImageContent = styled.div`
+const ImageContent = styled.figure`
+  min-height: ${px2rem(IMAGE_SIZE)};
   position: relative;
-  height: 100vh;
+  margin: 0;
 `;
 
 const Cta = styled.span`
   ${media.sm`
-    cursor: pointer;
+    cursor: url("icons/pointer.svg"), default;
     text-decoration: underline;
     transition: ${({ theme: { transitions } }) => transitions.medium};
 

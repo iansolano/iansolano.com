@@ -35,6 +35,20 @@ class AppDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            rel="preload"
+            href="/fonts/Wremena-Light.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/PitchSans-Medium.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async

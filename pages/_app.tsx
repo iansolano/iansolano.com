@@ -8,6 +8,8 @@ import GlobalStyle from '../styles/global-styles';
 import theme from '../styles/theme';
 import * as gtag from '../lib/gtag';
 
+import '../styles/custom-fonts.css';
+
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
   useEffect(() => {
