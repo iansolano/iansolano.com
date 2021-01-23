@@ -15,7 +15,7 @@ export default Link;
 
 export const Content = styled.a`
   color: ${({ theme: { colors } }) => colors.black};
-  cursor: url('icons/pointer.svg'), default;
+  cursor: url('icons/pointer.svg'), pointer;
   text-decoration: underline;
   transition: ${({ theme: { transitions } }) => transitions.medium};
 

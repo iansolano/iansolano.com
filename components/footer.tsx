@@ -19,11 +19,11 @@ const Footer = () => (
 
 export default Footer;
 
-const Items = styled.ul`
+const Items = styled.footer`
   display: flex;
   margin: ${({ theme: { spacing } }) => `0 ${spacing[2]}`};
   padding: ${({ theme: { spacing } }) =>
-    `0 0 calc(${spacing[1]} + ${spacing[3]}) 0`};
+    `0 0 calc(${spacing[3]} + ${spacing[3]}) 0`};
 
   ${media.md`
     margin: ${({ theme: { spacing } }) =>
@@ -31,7 +31,7 @@ const Items = styled.ul`
   `}
 `;
 
-const Item = styled.li`
+const Item = styled.span`
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
   font-size: ${px2rem(14)};
   list-style: none;
@@ -42,6 +42,7 @@ const Item = styled.li`
 
 const ItemLink = styled.a`
   color: ${({ theme: { colors } }) => colors.black};
+  cursor: url('icons/pointer.svg'), pointer;
   text-decoration: none;
   transition: ${({ theme: { transitions } }) => transitions.medium};
 

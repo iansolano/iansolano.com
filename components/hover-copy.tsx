@@ -55,7 +55,7 @@ const ImageContent = styled.figure`
 
 const Cta = styled.span`
   ${media.sm`
-    cursor: url("icons/pointer.svg"), default;
+    cursor: url("icons/pointer.svg"), pointer;
     text-decoration: underline;
     transition: ${({ theme: { transitions } }) => transitions.medium};
 
