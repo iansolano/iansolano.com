@@ -4,15 +4,17 @@ import { px2rem, media } from '../styles/style-utils';
 const Footer = () => (
   <Items>
     <Item>
-      <ItemLink href="mailto:ian@iansolano.com">email</ItemLink>
+      <ItemLink href="https://twitter.com/ianrsolano" target="_blank">
+        twitter
+      </ItemLink>
     </Item>
     <Item>
-      <ItemLink href="https://twitter.com/ianrsolano">twitter</ItemLink>
-    </Item>
-    <Item>
-      <ItemLink href="https://www.linkedin.com/in/iansolano/">
+      <ItemLink href="https://www.linkedin.com/in/iansolano/" target="_blank">
         linkedin
       </ItemLink>
+    </Item>
+    <Item>
+      <ItemLink href="mailto:ian@iansolano.com">email</ItemLink>
     </Item>
   </Items>
 );

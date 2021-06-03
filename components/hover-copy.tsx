@@ -22,7 +22,13 @@ const HoverCopy = ({ copy, src, alt }: HoverCopyProps) => {
       </Cta>
       <ImageContainer isVisible={isVisible}>
         <ImageContent>
-          <Image src={src} alt={alt} layout="fill" objectFit="contain" />
+          <Image
+            src={src}
+            alt={alt}
+            priority={true}
+            layout="fill"
+            objectFit="contain"
+          />
         </ImageContent>
       </ImageContainer>
     </>

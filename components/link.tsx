@@ -5,10 +5,13 @@ import { px2rem } from '../styles/style-utils';
 type LinkProps = {
   copy: string;
   href: string;
+  target: string;
 };
 
-const Link = ({ copy, href }: LinkProps) => (
-  <Content href={href}>{copy}&#8599;</Content>
+const Link = ({ copy, href, target }: LinkProps) => (
+  <Content href={href} target={target}>
+    {copy}&#8599;
+  </Content>
 );
 
 export default Link;
