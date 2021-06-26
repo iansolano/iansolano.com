@@ -29,13 +29,13 @@ const Home = () => (
       <Link
         href="http://stoyanovich.org/"
         target="_blank"
-        copy="Julia Stoyanovich"
+        copy="Dr. Julia Stoyanovich"
       />{' '}
       and{' '}
       <Link
         href="http://research.poly.edu/~onov/"
         target="_blank"
-        copy="Oded Nov"
+        copy="Dr. Oded Nov"
       />
       .
     </Copy>
