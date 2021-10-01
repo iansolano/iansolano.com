@@ -38,7 +38,7 @@ const Home = () => (
         copy="Dr. Oded Nov"
       />
       . Additionally, under the supervision of Dr. Stoyanovich I am pursuing my
-      master's thesis in building transparency and explainability tools for
+      master's thesis building transparency and explainability tools for
       algorithmic hiring.
     </Copy>
     <Copy>
