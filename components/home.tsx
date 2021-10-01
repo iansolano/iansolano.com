@@ -24,8 +24,8 @@ const Home = () => (
       . My research interests are in human-computer interaction (<Alt>HCI</Alt>
       ), information and communication technologies for development (
       <Alt>ICTD</Alt>), and machine learning for social good (<Alt>ML4SG</Alt>).
-      Currently, I am researching explainability trade-offs in machine learning
-      for public policy applications under the supervision of{' '}
+      Currently, I am researching the performance-explainability trade-off in
+      machine learning for public policy applications under the supervision of{' '}
       <Link
         href="http://stoyanovich.org/"
         target="_blank"
@@ -37,7 +37,9 @@ const Home = () => (
         target="_blank"
         copy="Dr. Oded Nov"
       />
-      .
+      . Additionally, under the supervision of Dr. Stoyanovich I am pursuing my
+      master's thesis in building transparency and explainability tools for
+      algorithmic hiring.
     </Copy>
     <Copy>
       I am interested in building and evaluating computing technologies that aim
