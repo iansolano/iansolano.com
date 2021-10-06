@@ -15,7 +15,7 @@ const Home = () => (
         src="/assets/graduate-student.gif"
         alt="Graduate student gif"
       />{' '}
-      in Computer Science at the{' '}
+      in computer science at the{' '}
       <Link
         href="https://engineering.nyu.edu/"
         target="_blank"
