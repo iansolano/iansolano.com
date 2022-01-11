@@ -20,6 +20,12 @@ const Home = () => (
         href="https://engineering.nyu.edu/"
         target="_blank"
         copy="NYU Tandon School of Engineering"
+      />{' '}
+      and a graduate research fellow at the{' '}
+      <Link
+        href="https://airesponsibly.net/"
+        target="_blank"
+        copy="Center for Responsible AI at NYU"
       />
       . My research interests are in human-computer interaction (<Alt>HCI</Alt>
       ), information and communication technologies for development (
@@ -44,10 +50,9 @@ const Home = () => (
     <Copy>
       I am interested in building and evaluating computing technologies that aim
       to improve the lives of underserved and marginalized communities. I am
-      specifically focused on areas such as population-level public health,
-      in-home healthcare, automation and the future of work, environmental
-      justice, and responsible automated decision systems. Prior to attending
-      NYU, I worked as a{' '}
+      specifically focused on areas such as community and in-home healthcare,
+      automation and the future of work, environmental justice, and responsible
+      automated decision systems. Prior to attending NYU, I worked as a{' '}
       <HoverCopy
         copy="software engineer"
         src="/assets/software-engineer.gif"
