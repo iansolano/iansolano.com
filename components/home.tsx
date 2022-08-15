@@ -21,7 +21,7 @@ const Home = () => (
         target="_blank"
         copy="Cornell University"
       />{' '}
-      , where I am co-advised by{' '}
+      where I am co-advised by{' '}
       <Link
         href="https://nixdell.com/"
         target="_blank"
