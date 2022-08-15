@@ -11,53 +11,56 @@ const Home = () => (
     <Copy>
       I am a{' '}
       <HoverCopy
-        copy="graduate student"
+        copy="Ph.D. student"
         src="/assets/graduate-student.gif"
-        alt="Graduate student gif"
+        alt="Ph.D. Student gif"
       />{' '}
-      in computer science at the{' '}
+      in Information Science at{' '}
       <Link
-        href="https://engineering.nyu.edu/"
+        href="https://infosci.cornell.edu/"
         target="_blank"
-        copy="NYU Tandon School of Engineering"
+        copy="Cornell University"
       />{' '}
-      and a graduate research fellow at the{' '}
+      , where I am co-advised by{' '}
       <Link
-        href="https://airesponsibly.net/"
+        href="https://nixdell.com/"
         target="_blank"
-        copy="Center for Responsible AI at NYU"
+        copy="Dr. Nicola Dell"
+      />{' '}
+      and{' '}
+      <Link
+        href="https://www.adityavashistha.com/"
+        target="_blank"
+        copy="Dr. Aditya Vashistha"
       />
       . My research interests are in human-computer interaction (<Alt>HCI</Alt>
       ), information and communication technologies for development (
       <Alt>ICTD</Alt>), and machine learning for social good (<Alt>ML4SG</Alt>).
-      Currently, I am researching the accuracy-explainability trade-off in
-      machine learning for public policy applications under the supervision of{' '}
-      <Link
-        href="http://stoyanovich.org/"
-        target="_blank"
-        copy="Dr. Julia Stoyanovich"
-      />{' '}
-      and{' '}
-      <Link
-        href="http://research.poly.edu/~onov/"
-        target="_blank"
-        copy="Dr. Oded Nov"
-      />
-      . Additionally, under the supervision of Dr. Stoyanovich I am pursuing my
-      master's thesis building{' '}
-      <Link
-        href="https://www.wsj.com/articles/hiring-job-candidates-ai-11632244313?st=z9c8ww2udg3sj1p&reflink=desktopwebshare_permalink"
-        target="_blank"
-        copy="transparency and explainability tools"
-      />{' '}
-      for algorithmic hiring.
+      My research focus is on building and evaluating computing technologies
+      that aim to improve the lives of marginalized and underserved populations.
+      In particular, I am interested in community and in-home healthcare,
+      automation and the future of work, and climate resilience.
     </Copy>
     <Copy>
-      I am interested in building and evaluating computing technologies that aim
-      to improve the lives of underserved and marginalized communities. I am
-      specifically focused on areas such as community and in-home healthcare,
-      automation and the future of work, environmental justice, and responsible
-      automated decision systems. Prior to attending NYU, I worked as a{' '}
+      Prior to attending Cornell, I received an M.S. in Computer Science from{' '}
+      <Link
+        href="https://engineering.nyu.edu/"
+        target="_blank"
+        copy="New York University"
+      />{' '}
+      where I was a graduate research fellow at the{' '}
+      <Link
+        href="https://airesponsibly.net/"
+        target="_blank"
+        copy="Center for Responsible AI"
+      />{' '}
+      under the supervision of{' '}
+      <Link
+        href="https://engineering.nyu.edu/faculty/julia-stoyanovich"
+        target="_blank"
+        copy="Dr. Julia Stoyanovich"
+      />
+      . Before academia, I worked as a{' '}
       <HoverCopy
         copy="software engineer"
         src="/assets/software-engineer.gif"
