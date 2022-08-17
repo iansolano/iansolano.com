@@ -5,7 +5,7 @@ const Meta = () => (
     <title>Personal Website | Ian René Solano-Kamaiko</title>
     <meta
       name="description"
-      content="Ian René Solano-Kamaiko is a graduate student in Computer Science at the NYU Tandon School of Engineering."
+      content="Ian René Solano-Kamaiko is a Ph.D. student in Information Science at Cornell University."
     />
     <meta property="og:type" content="website" />
     <meta
@@ -16,16 +16,16 @@ const Meta = () => (
     <meta
       name="og:description"
       property="og:description"
-      content="Ian René Solano-Kamaiko is a graduate student in Computer Science at the NYU Tandon School of Engineering."
+      content="Ian René Solano-Kamaiko is a Ph.D. student in Information Science at Cornell University."
     />
     <meta name="twitter:card" content="summary" />
     <meta
       name="twitter:title"
-      content="Personal Website | Ian René Solano-Kamaiko"
+      content="Ian René Solano-Kamaiko | Personal Website"
     />
     <meta
       name="twitter:description"
-      content="Ian René Solano-Kamaiko is a graduate student in Computer Science at the NYU Tandon School of Engineering."
+      content="Ian René Solano-Kamaiko is a Ph.D. student in Information Science at Cornell University."
     />
     <meta name="twitter:creator" content="@ianrsolano" />
     <meta property="og:image" content="/og-image.png" />
