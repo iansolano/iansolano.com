@@ -14,7 +14,7 @@ const Footer = () => (
       </ItemLink>
     </Item>
     <Item>
-      <ItemLink href="mailto:ian@iansolano.com">email</ItemLink>
+      <ItemLink href="mailto:irs24@cornell.edu">email</ItemLink>
     </Item>
   </Items>
 );

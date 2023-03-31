@@ -15,11 +15,11 @@ const Home = () => (
         src="/assets/graduate-student.gif"
         alt="Ph.D. Student gif"
       />{' '}
-      in Information Science at{' '}
+      in the School of Computing and Information Science at{' '}
       <Link
-        href="https://infosci.cornell.edu/"
+        href="https://tech.cornell.edu/"
         target="_blank"
-        copy="Cornell University"
+        copy="Cornell Tech"
       />{' '}
       where I am co-advised by{' '}
       <Link
@@ -38,8 +38,8 @@ const Home = () => (
       <Alt>ICTD</Alt>), and machine learning for social good (<Alt>ML4SG</Alt>).
       My research focus is on building and evaluating computing technologies
       that aim to improve the lives of marginalized and underserved populations.
-      In particular, I am interested in community and in-home healthcare,
-      automation and the future of work, and climate resilience.
+      In particular, I am interested in community and in-home healthcare, mental
+      health, climate resilience, and responsible artificial intelligence.
     </Copy>
     <Copy>
       Prior to attending Cornell, I received an M.S. in Computer Science from{' '}
@@ -54,7 +54,8 @@ const Home = () => (
         target="_blank"
         copy="Center for Responsible AI"
       />{' '}
-      under the supervision of{' '}
+      and where I am currently a visiting research scholar under the supervision
+      of{' '}
       <Link
         href="https://engineering.nyu.edu/faculty/julia-stoyanovich"
         target="_blank"
