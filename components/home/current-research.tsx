@@ -12,7 +12,7 @@ const CurrentResearch = () => (
     <ImageContainer>
       <Image
         src="/assets/images/home-health-care.png"
-        alt="Headshot of Ian Solano-Kamaiko"
+        alt="User interview with home care workers who are examining wearable devices."
         style={{ objectFit: 'cover' }}
         fill={true}
       />

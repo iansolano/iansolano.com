@@ -23,7 +23,7 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SBXtb3gAAAAJ&citation_for_view=SBXtb3gAAAAJ:9yKSN-GCB0IC"
+              href="/assets/documents/Explorable-Explainable-AI-CHI24.pdf"
               copy="Explorable Explainable AI: Improving AI Understanding for Community Health Workers in India"
               target="_blank"
               hasArrow={true}
@@ -46,7 +46,7 @@ const RecentPublications = () => (
         <ImageContainer>
           <Image
             src="/assets/images/ct-diagram.png"
-            alt="Headshot of Ian Solano-Kamaiko"
+            alt="An image of a triple Venn diagram: social science, engineering, and design. With contextual transparency as the overlapping center."
             style={{ objectFit: 'cover' }}
             fill={true}
           />
@@ -54,7 +54,7 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SBXtb3gAAAAJ&citation_for_view=SBXtb3gAAAAJ:d1gkVwhDpl0C"
+              href="/assets/documents/Contextual-Transparency-Nature23.pdf"
               copy="Introducing Contextual Transparency for Automated Decision Systems"
               target="_blank"
               hasArrow={true}

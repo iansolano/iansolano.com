@@ -9,7 +9,10 @@ const Footer = () => (
       <Link href="https://twitter.com/ianrsolano" target="_blank">
         twitter
       </Link>
-      <Link href="https://scholar.google.com/citations?user=SBXtb3gAAAAJ&hl=en">
+      <Link
+        href="https://scholar.google.com/citations?user=SBXtb3gAAAAJ&hl=en"
+        target="_blank"
+      >
         Google Scholar
       </Link>
       <Link href="https://www.linkedin.com/in/iansolano/" target="_blank">
