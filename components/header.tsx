@@ -1,58 +1,89 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
 import React from 'react';
 import styled from 'styled-components';
+
+import Wrapper from './wrapper';
+import SecondaryType from './secondary-type';
 import { px2rem, media } from '../styles/style-utils';
 
 const Header = () => (
   <Container>
     <ImageContainer>
       <Image
-        src="/assets/headshot.png"
+        src="/assets/images/headshot.jpg"
         alt="Headshot of Ian Solano-Kamaiko"
-        layout="fill"
-        objectFit="contain"
+        style={{ objectFit: 'cover' }}
+        fill={true}
       />
     </ImageContainer>
-    <Items>
-      <Item>Ian René Solano-Kamaiko</Item>
-      <Item>él/he/him</Item>
-    </Items>
+    <div>
+      <Spacer>
+        <SecondaryType>Ian René Solano-Kamaiko</SecondaryType>
+        <SecondaryType>él/he/him 🇵🇷</SecondaryType>
+      </Spacer>
+      <Spacer>
+        <SecondaryType>Cornell Tech</SecondaryType>
+        <SecondaryType>2 West Loop Rd</SecondaryType>
+        <SecondaryType>New York, NY 10044</SecondaryType>
+      </Spacer>
+      <SecondaryType>irs24 [at] cornell [dot] edu</SecondaryType>
+    </div>
+    <Navigation>
+      <Anchor href="/">Home</Anchor>
+      <Anchor href="/publications">Publications</Anchor>
+      <Anchor
+        target="_blank"
+        href="/assets/documents/Ian-Rene-Solano-Kamaiko-CV.pdf"
+      >
+        CV
+      </Anchor>
+    </Navigation>
   </Container>
 );
 
 export default Header;
 
-const Container = styled.header`
-  align-items: center;
-  border-bottom: ${({ theme: { borderWidths, colors } }) =>
-    `${borderWidths[1]} solid ${colors.black}`};
+const Container = styled(Wrapper)`
   display: flex;
-  height: ${px2rem(100)};
-  margin-bottom: ${({ theme: { spacing } }) =>
-    `calc(${spacing[1]} + ${spacing[3]})`};
-  padding: ${({ theme: { spacing } }) => `0 ${spacing[2]}`};
-
-  ${media.md`
-    padding: ${({ theme: { spacing } }) =>
-      `0 calc(${spacing[1]} + ${spacing[3]})`};
-  `}
+  && {
+    margin-top: ${({ theme: { spacing } }) => spacing[3]};
+  }
 `;
 
 const ImageContainer = styled.div`
   display: flex;
-  height: ${px2rem(60)};
+  height: ${px2rem(150)};
+  margin-right: ${({ theme: { spacing } }) => spacing[2]};
   position: relative;
-  width: ${px2rem(60)};
+  width: ${px2rem(120)};
 `;
 
-const Items = styled.div`
-  margin-left: ${({ theme: { spacing } }) => spacing[3]};
+const Spacer = styled.div`
+  margin-bottom: ${({ theme: { spacing } }) => spacing[1]};
 `;
 
-const Item = styled.span`
-  display: block;
+const Navigation = styled.div`
+  display: none;
+
+  ${media.md`
+    display: block;
+    margin-left: auto;
+  `}
+`;
+
+const Anchor = styled(Link)`
+  color: ${({ theme: { colors } }) => colors.primary};
+  cursor: url('icons/pointer.svg'), pointer;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
   font-size: ${px2rem(14)};
-  line-height: ${({ theme: { lineHeight } }) => lineHeight[2]};
+  padding-left: ${({ theme: { spacing } }) => spacing[3]};
+  text-decoration: none;
   text-transform: uppercase;
+  transition: ${({ theme: { transitions } }) => transitions.medium};
+
+  &:hover {
+    color: ${({ theme: { colors } }) => colors.primary};
+  }
 `;

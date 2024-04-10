@@ -3,6 +3,7 @@ export interface ThemeProps {
     primary: string;
     secondary: string;
     tertiary: string;
+    primaryLighten: string;
     black: string;
     white: string;
   };
@@ -19,6 +20,7 @@ export interface ThemeProps {
   fonts: {
     primary: string;
     secondary: string;
+    tertiary: string;
   };
   fontWeights: Array<number>;
   lineHeight: Array<number>;
@@ -37,9 +39,10 @@ export interface ThemeProps {
 
 const theme: ThemeProps = {
   colors: {
-    primary: '#584C3E',
-    secondary: '#FDF7E8',
-    tertiary: '#FFEDD9',
+    primary: '#172E4B',
+    secondary: '#E1D3C3',
+    tertiary: '#976D32',
+    primaryLighten: '#B9B2AC',
     black: '#000000',
     white: '#FFFFFF',
   },
@@ -56,8 +59,9 @@ const theme: ThemeProps = {
   fonts: {
     primary: 'Wremena, serif',
     secondary: 'Pitch Sans, sans-serif',
+    tertiary: 'Syne, serif',
   },
-  fontWeights: [100, 500],
+  fontWeights: [100, 400, 500, 700],
   lineHeight: [1, 1.25, 1.5],
   letterSpacing: {
     tracked: '0.1rem',

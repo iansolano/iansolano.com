@@ -1,54 +1,48 @@
 import styled from 'styled-components';
+
+import Wrapper from './wrapper';
 import { px2rem, media } from '../styles/style-utils';
 
 const Footer = () => (
-  <Items>
-    <Item>
-      <ItemLink href="https://twitter.com/ianrsolano" target="_blank">
+  <Container>
+    <FooterWrapper>
+      <Link href="https://twitter.com/ianrsolano" target="_blank">
         twitter
-      </ItemLink>
-    </Item>
-    <Item>
-      <ItemLink href="https://www.linkedin.com/in/iansolano/" target="_blank">
+      </Link>
+      <Link href="https://scholar.google.com/citations?user=SBXtb3gAAAAJ&hl=en">
+        Google Scholar
+      </Link>
+      <Link href="https://www.linkedin.com/in/iansolano/" target="_blank">
         linkedin
-      </ItemLink>
-    </Item>
-    <Item>
-      <ItemLink href="mailto:irs24@cornell.edu">email</ItemLink>
-    </Item>
-  </Items>
+      </Link>
+    </FooterWrapper>
+  </Container>
 );
 
 export default Footer;
 
-const Items = styled.footer`
+const Container = styled.footer`
+  background-color: ${({ theme: { colors } }) => colors.tertiary};
+  margin-top: ${({ theme: { spacing } }) => spacing[5]};
+  padding: ${({ theme: { spacing } }) => `${spacing[0]} 0`};
+`;
+
+const FooterWrapper = styled(Wrapper)`
   display: flex;
-  margin: ${({ theme: { spacing } }) => `0 ${spacing[2]}`};
-  padding: ${({ theme: { spacing } }) =>
-    `0 0 calc(${spacing[3]} + ${spacing[3]}) 0`};
+  justify-content: space-between;
+`;
+
+const Link = styled.a`
+  color: ${({ theme: { colors } }) => colors.primary};
+  cursor: url('icons/pointer.svg'), pointer;
+  font-family: ${({ theme: { fonts } }) => fonts.tertiary};
+  font-size: ${({ theme: { spacing } }) =>
+    `calc(${spacing[0]} + ${spacing[2]})`};
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
 
   ${media.md`
-    margin: ${({ theme: { spacing } }) =>
-      `0 calc(${spacing[1]} + ${spacing[3]})`};
+    font-size: ${({ theme: { spacing } }) => spacing[3]};
   `}
-`;
-
-const Item = styled.span`
-  font-family: ${({ theme: { fonts } }) => fonts.secondary};
-  font-size: ${px2rem(14)};
-  list-style: none;
-  margin-right: ${({ theme: { spacing } }) =>
-    `calc(${spacing[2]} + ${spacing[3]})`};
-  text-transform: uppercase;
-`;
-
-const ItemLink = styled.a`
-  color: ${({ theme: { colors } }) => colors.black};
-  cursor: url('icons/pointer.svg'), pointer;
-  text-decoration: none;
-  transition: ${({ theme: { transitions } }) => transitions.medium};
-
-  &:hover {
-    color: ${({ theme: { colors } }) => colors.primary};
-  }
 `;

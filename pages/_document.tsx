@@ -2,8 +2,6 @@ import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import { GA_TRACKING_ID } from '../lib/gtag';
-
 class AppDocument extends Document {
   static async getInitialProps(ctx: any) {
     const sheet = new ServerStyleSheet();
@@ -49,23 +47,19 @@ class AppDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          <link
+            rel="preload"
+            href="/fonts/Syne-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
           />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '${GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
+          <link
+            rel="preload"
+            href="/fonts/Syne-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
           />
         </Head>
         <body>

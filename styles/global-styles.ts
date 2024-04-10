@@ -17,9 +17,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     background: ${theme.colors.secondary};
-    background: linear-gradient(
-      180deg, ${theme.colors.secondary} 0%,
-      ${theme.colors.tertiary} ${theme.percentages.full});
+    color: ${theme.colors.primary};
     font-family: ${theme.fonts.primary};
     height: ${theme.percentages.full};
     margin: 0;
