@@ -79,10 +79,14 @@ const Container = styled.section`
 
 const ImageContainer = styled.div`
   display: flex;
-  height: 75vh;
+  height: ${px2rem(450)};
   margin: ${({ theme: { spacing } }) => `${spacing[3]} 0`};
   position: relative;
   width: 100%;
+
+  ${media.md`
+    height: ${px2rem(650)};
+  `}
 `;
 
 const CopyContent = styled.div`

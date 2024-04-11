@@ -9,7 +9,11 @@ export default SecondaryType;
 const Type = styled.span`
   display: block;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
-  font-size: ${px2rem(14)};
+  font-size: ${({ theme: { spacing } }) => spacing[2]};
   line-height: ${({ theme: { lineHeight } }) => lineHeight[1]};
   text-transform: uppercase;
+
+  ${media.md`
+    font-size: ${px2rem(14)}
+  `}
 `;

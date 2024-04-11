@@ -28,7 +28,7 @@ const Header = () => (
         <SecondaryType>2 West Loop Rd</SecondaryType>
         <SecondaryType>New York, NY 10044</SecondaryType>
       </Spacer>
-      <SecondaryType>irs24 [at] cornell [dot] edu</SecondaryType>
+      <SecondaryType>irs24 [at] cornell.edu</SecondaryType>
     </div>
     <Navigation>
       <Anchor href="/">Home</Anchor>
@@ -77,7 +77,7 @@ const Anchor = styled(Link)`
   color: ${({ theme: { colors } }) => colors.primary};
   cursor: url('icons/pointer.svg'), pointer;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
-  font-size: ${px2rem(14)};
+  font-size: ${({ theme: { spacing } }) => spacing[2]};
   padding-left: ${({ theme: { spacing } }) => spacing[3]};
   text-decoration: none;
   text-transform: uppercase;
@@ -86,4 +86,8 @@ const Anchor = styled(Link)`
   &:hover {
     color: ${({ theme: { colors } }) => colors.primary};
   }
+
+  ${media.md`
+    font-size: ${px2rem(14)};
+  `}
 `;

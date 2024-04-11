@@ -147,7 +147,7 @@ const Anchor = styled(Link)`
   cursor: url('icons/pointer.svg'), pointer;
   display: block;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
-  font-size: ${px2rem(14)};
+  font-size: ${({ theme: { spacing } }) => spacing[2]};
   margin-top: ${({ theme: { spacing } }) => spacing[2]};
   text-decoration: none;
   text-transform: uppercase;
@@ -155,5 +155,6 @@ const Anchor = styled(Link)`
 
   &:hover {
     color: ${({ theme: { colors } }) => colors.primary};
+    font-size: ${px2rem(14)};
   }
 `;

@@ -27,7 +27,11 @@ export default Footer;
 const Container = styled.footer`
   background-color: ${({ theme: { colors } }) => colors.tertiary};
   margin-top: ${({ theme: { spacing } }) => spacing[5]};
-  padding: ${({ theme: { spacing } }) => `${spacing[0]} 0`};
+  padding: ${({ theme: { spacing } }) => `${spacing[2]} 0`};
+
+  ${media.md`
+    padding: ${({ theme: { spacing } }) => `${spacing[0]} 0`};
+  `}
 `;
 
 const FooterWrapper = styled(Wrapper)`
