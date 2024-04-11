@@ -155,6 +155,9 @@ const Anchor = styled(Link)`
 
   &:hover {
     color: ${({ theme: { colors } }) => colors.primary};
-    font-size: ${px2rem(14)};
   }
+
+  ${media.md`
+    font-size: ${px2rem(14)};
+  `}
 `;
