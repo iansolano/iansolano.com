@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import Wrapper from './wrapper';
-import { px2rem, media } from '../styles/style-utils';
+import { media } from '../styles/style-utils';
 
 const Footer = () => (
   <Container>

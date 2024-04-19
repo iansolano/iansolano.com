@@ -18,6 +18,7 @@ const RecentPublications = () => (
             alt="A picture of a community health worker in an interview comparing a doll to an iPad AI decision."
             style={{ objectFit: 'cover' }}
             fill={true}
+            sizes="640px"
           />
         </ImageContainer>
         <CopyContent>
@@ -49,6 +50,7 @@ const RecentPublications = () => (
             alt="An image of a triple Venn diagram: social science, engineering, and design. With contextual transparency as the overlapping center."
             style={{ objectFit: 'cover' }}
             fill={true}
+            sizes="640px"
           />
         </ImageContainer>
         <CopyContent>

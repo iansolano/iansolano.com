@@ -8,14 +8,6 @@ import { px2rem, media } from '../../styles/style-utils';
 
 import { PUBLICATIONS } from './data';
 
-type CustomLinkProps = {
-  className?: string;
-  copy: string;
-  href: string;
-  target: string;
-  hasArrow?: boolean;
-};
-
 const PublicationsList = () => (
   <WrapperExtended>
     <List>

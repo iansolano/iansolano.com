@@ -15,6 +15,7 @@ const CurrentResearch = () => (
         alt="User interview with home care workers who are examining wearable devices."
         style={{ objectFit: 'cover' }}
         fill={true}
+        sizes="1280px"
       />
     </ImageContainer>
     <CopyContent>

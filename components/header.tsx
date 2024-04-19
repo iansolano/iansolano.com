@@ -16,6 +16,7 @@ const Header = () => (
         alt="Headshot of Ian Solano-Kamaiko"
         style={{ objectFit: 'cover' }}
         fill={true}
+        sizes="120px"
       />
     </ImageContainer>
     <div>

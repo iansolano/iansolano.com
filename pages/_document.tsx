@@ -1,7 +1,7 @@
 import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { Analytics } from '@vercel/analytics/react';
 
 class AppDocument extends Document {
   static async getInitialProps(ctx: any) {
@@ -66,8 +66,8 @@ class AppDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <Analytics />
         </body>
-        <GoogleAnalytics gaId="G-05D8BMHH8Y" />
       </Html>
     );
   }
