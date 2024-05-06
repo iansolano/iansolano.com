@@ -20,6 +20,5 @@ const Container = styled.div`
 
   ${media.xl`
     max-width: ${({ theme: { breakpoints } }) => px2rem(breakpoints[3])};
-    padding: ${({ theme: { spacing } }) => `0 ${spacing[0]}`};
   `}
 `;

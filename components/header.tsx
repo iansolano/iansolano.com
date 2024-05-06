@@ -12,7 +12,7 @@ const Header = () => (
   <Container>
     <ImageContainer>
       <Image
-        src="/assets/images/headshot.jpg"
+        src="/assets/images/headshot.png"
         alt="Headshot of Ian Solano-Kamaiko"
         style={{ objectFit: 'cover' }}
         fill={true}
