@@ -111,7 +111,7 @@ const Marquee = styled.h1`
 
   ${media.md`
     font-size: ${({ theme: { spacing } }) =>
-      `calc(${spacing[1]} + ${spacing[4]})`};
+      `calc(${spacing[1]} + ${spacing[2]} + ${spacing[3]})`};
   `}
 `;
 

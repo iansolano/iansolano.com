@@ -25,7 +25,6 @@ export default CustomLink;
 
 export const Content = styled.a`
   color: ${({ theme: { colors } }) => colors.primary};
-  cursor: url('icons/pointer.svg'), pointer;
   text-decoration: underline;
   transition: ${({ theme: { transitions } }) => transitions.medium};
 

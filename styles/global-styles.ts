@@ -4,7 +4,6 @@ import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
   html {
-    cursor: url("icons/cursor.svg"), default;
     box-sizing: border-box;
     font-size: 14px;
     min-height: ${theme.percentages.full};

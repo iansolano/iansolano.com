@@ -76,7 +76,6 @@ const Navigation = styled.div`
 
 const Anchor = styled(Link)`
   color: ${({ theme: { colors } }) => colors.primary};
-  cursor: url('icons/pointer.svg'), pointer;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
   font-size: ${({ theme: { spacing } }) => spacing[2]};
   padding-left: ${({ theme: { spacing } }) => spacing[3]};
