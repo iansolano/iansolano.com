@@ -20,8 +20,8 @@ const Home = () => (
         href="https://tech.cornell.edu/"
         target="_blank"
         copy="Cornell Tech"
-      />{' '}
-      where I am co-advised by{' '}
+      />
+      , where I am co-advised by{' '}
       <CustomLink
         href="https://nixdell.com/"
         target="_blank"
@@ -39,20 +39,27 @@ const Home = () => (
         target="_blank"
         copy="Dr. Deborah Estrin"
       />
-      .
+      . I am also a member of the{' '}
+      <CustomLink
+        href="https://www.ilr.cornell.edu/carow/incubator/home-care-work/"
+        target="_blank"
+        copy="Initiative on Home Care Work"
+      />{' '}
+      at Cornell.
     </Copy>
     <Copy>
-      My research interests are in human-computer interaction (<Alt>HCI</Alt>
-      ), information and communication technologies for development (
-      <Alt>ICTD</Alt>), and responsible artificial intelligence (<Alt>R/AI</Alt>
-      ). I work on designing, building, and evaluating sociotechnical systems
-      that enable positive social transformation for underserved communities. My
-      research focuses on intractable yet critical problems related to computing
-      in high-stakes healthcare settings &mdash; particularly with respect to
-      social determinants of health for community and home health workers.
+      My research lies at the intersection of human-computer interaction (
+      <Alt>HCI</Alt>
+      ), responsible artificial intelligence (<Alt>R/AI</Alt>
+      ), and digital health equity. I design, build, and evaluate sociotechnical
+      systems that enable positive social transformation for underserved
+      communities. Specifically, my work centers on computing in high-stakes
+      healthcare settings, with an aim at addressing how social determinants of
+      health contribute to inequities faced by community and home healthcare
+      workers.
     </Copy>
     <Copy>
-      Prior to attending Cornell, I received an M.S. in Computer Science from{' '}
+      Before joining Cornell, I earned an M.S. in Computer Science from{' '}
       <CustomLink
         href="https://engineering.nyu.edu/"
         target="_blank"
@@ -64,28 +71,31 @@ const Home = () => (
         href="https://airesponsibly.net/"
         target="_blank"
         copy="Center for Responsible AI"
-      />{' '}
-      under the supervision of{' '}
+      />
+      , under the supervision of{' '}
       <CustomLink
         href="https://engineering.nyu.edu/faculty/julia-stoyanovich"
         target="_blank"
         copy="Dr. Julia Stoyanovich"
       />
-      . Before academia, I worked as a software engineer for various New York
-      City technology startups. Some of my most recent work includes creating
-      open-source software to make{' '}
+      . Prior to academia, I worked as a software engineer for various New York
+      City technology startups. Some of my most recent work includes developing
+      open-source software to create{' '}
       <CustomLink
         href="https://opentrons.com/"
         target="_blank"
         copy="robots for biologists"
       />{' '}
-      and writing software to help{' '}
+      and building software to help{' '}
       <CustomLink
         href="https://www.hiclark.com/"
         target="_blank"
-        copy="build educators into entrepreneurs"
+        copy="educators become entrepreneurs"
       />
-      . Outside of academic activities, I am an avid Muay Thai practitioner, I
+      .
+    </Copy>
+    <Copy>
+      Outside of academic activities, I am an avid Muay Thai practitioner, I
       enjoy{' '}
       <CustomLink
         href="https://www.goodreads.com/user/show/122249441-ian-ren-solano-kamaiko"

@@ -1,4 +1,44 @@
 export const PUBLICATIONS = {
+  2025: [
+    {
+      title:
+        "“This is eye opening:” Raising Awareness of Home Care Workers' Health and Wellbeing via Activity Tracking",
+      authors: [
+        'Ian René Solano-Kamaiko',
+        'Melissa Tan',
+        'Irene Yang',
+        'Kexin Cheng',
+        'Ronica Peramsetty',
+        'Michelle Shum',
+        'Yanira Escamilla',
+        'Ariel C. Avgar',
+        'Madeline Sterling',
+        'Aditya Vashistha',
+        'Nicola Dell',
+      ],
+      venue:
+        "Proceedings of the 2025 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '25).",
+      orderOfAppearance: 0,
+      link: '/assets/documents/Activity-Tracking-For-HCWs-CSCW25.pdf',
+    },
+    {
+      title:
+        '“Who is running it?” Towards Equitable AI Deployment in Home Care Work',
+      authors: [
+        'Ian René Solano-Kamaiko',
+        'Melissa Tan',
+        'Joy Ming',
+        'Ariel C. Avgar',
+        'Aditya Vashistha',
+        'Madeline Sterling',
+        'Nicola Dell',
+      ],
+      venue:
+        'Proceedings of the 2025 ACM Conference on Human Factors in Computing Systems (CHI ‘25).',
+      orderOfAppearance: 0,
+      link: '/assets/documents/AI-In-HCW-CHI25.pdf',
+    },
+  ],
   2024: [
     {
       title:
