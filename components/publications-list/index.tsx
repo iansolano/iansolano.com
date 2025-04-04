@@ -15,9 +15,9 @@ const PublicationsList = () => (
         .sort((a, b) => Number(b) - Number(a))
         .map((year, _) =>
           PUBLICATIONS[year].map(
-            ({ title, authors, venue, orderOfAppearance, link }, _) => (
+            ({ title, authors, venue, orderOfAppearance, link }, index) => (
               <ListItem key={title}>
-                <Year>{year}</Year>
+                {index == 0 && <Year>{year}</Year>}
                 <SubList>
                   <SubListItem>
                     <CustomLink
