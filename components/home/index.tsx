@@ -11,8 +11,8 @@ import { px2rem, media } from '../../styles/style-utils';
 const Home = () => (
   <Wrapper>
     <Marquee>
-      Designing, building, and evaluating technologies for underserved
-      communities.
+      Designing, building, and <br />
+      evaluating technologies for underserved communities.
     </Marquee>
     <Copy>
       I am a Ph.D. student in the School of Computing and Information Science at{' '}
@@ -121,16 +121,17 @@ const Marquee = styled.h1`
 
   ${media.md`
     font-size: ${({ theme: { spacing } }) =>
-      `calc(${spacing[1]} + ${spacing[2]} + ${spacing[3]})`};
+      `calc(${spacing[2]} + ${spacing[3]})`};
   `}
 `;
 
 const Copy = styled.p`
   display: block;
-  font-size: ${({ theme: { spacing } }) => spacing[3]};
+  font-size: ${({ theme: { spacing } }) =>
+    `calc(${spacing[1]} + ${spacing[2]})`};
   line-height: ${({ theme: { lineHeight } }) => lineHeight[1]};
   margin-bottom: ${({ theme: { spacing } }) =>
-    `calc(${spacing[1]} + ${spacing[3]})`};
+    `calc(${spacing[0]} + ${spacing[2]})`};
 `;
 
 const Alt = styled.span`
