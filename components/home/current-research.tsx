@@ -11,58 +11,32 @@ const CurrentResearch = () => (
     <SecondaryType>Current Research</SecondaryType>
     <ImageContainer>
       <Image
-        src="/assets/images/home-health-care.png"
-        alt="User interview with home care workers who are examining wearable devices."
+        src="/assets/images/current-research.png"
+        alt="Interactive focus group with home care workers who are using smart glasses for hands-free wound care."
         style={{ objectFit: 'cover' }}
         fill={true}
         sizes="1280px"
       />
     </ImageContainer>
     <CopyContent>
-      <Title>Empowering Home Care Workers in New York City</Title>
+      <Title>Digital Health Equity in Home Healthcare Work</Title>
       <>
         <Copy>
-          I am currently working as part of a multidisciplinary research team,
-          which includes researchers from{' '}
+          I am part of a multidisciplinary research team at Cornell University
+          working on the{' '}
           <CustomLink
-            href="https://weill.cornell.edu/"
+            href="https://www.ilr.cornell.edu/carow/incubator/home-care-work"
             target="_blank"
-            copy="Weill Cornell Medicine"
+            copy="Initiative on Home Care Work"
           />
-          ,{' '}
-          <CustomLink
-            href="https://cis.cornell.edu/"
-            target="_blank"
-            copy="Cornell Computing and Information Science"
-          />
-          ,{' '}
-          <CustomLink
-            href="https://www.ilr.cornell.edu/"
-            target="_blank"
-            copy="Cornell University School
-            of Industrial and Labor Relations"
-          />
-          , and{' '}
-          <CustomLink
-            href="https://www.1199seiu.org/"
-            target="_blank"
-            copy="1199SEIU United Healthcare Workers East"
-          />
-          , the nation's largest healthcare union. Our research is focused on
-          empowering home care workers (HCWs), who are primarily Black and
-          Latina women who care for older adults and enable them to age in
-          place.
+          . Our goal is to elevate the value of home care workers while
+          improving their working conditions and patient outcomes.
         </Copy>
         <Copy>
-          Despite the growing importance of HCWs, research has shown that they
-          are paid low wages, undervalued by other healthcare providers,
-          insufficiently trained, operate in isolation, and struggle with their
-          own health. In response, our research is focused on creating a data
-          cooperative that centers HCWs who are at the crux of the caregiving
-          crisis. Our goal is to shift the focus of data collection and
-          governance away from monitoring workers, to providing HCWs with the
-          agency to control what data is collected and how it will be used to
-          advocate for their needs and the needs of their clients.
+          My current research focuses on the responsible design, development,
+          and deployment of AI agents to improve care coordination between
+          informal caregivers, home healthcare workers, and healthcare
+          providers.
         </Copy>
       </>
     </CopyContent>

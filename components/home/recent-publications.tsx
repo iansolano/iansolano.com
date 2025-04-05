@@ -14,8 +14,8 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/chw-interview.png"
-            alt="A picture of a community health worker in an interview comparing a doll to an iPad AI decision."
+            src="/assets/images/activity-tracker.png"
+            alt="An image of a home care worker interacting with an activity tracker wristband."
             style={{ objectFit: 'cover' }}
             fill={true}
             sizes="640px"
@@ -24,18 +24,20 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/Explorable-Explainable-AI-CHI24.pdf"
-              copy="Explorable Explainable AI: Improving AI Understanding for Community Health Workers in India"
+              href="/assets/documents/Activity-Tracking-For-HCWs-CSCW25.pdf"
+              copy="“This is eye opening:” Raising Awareness of Home Care Workers' Health and Wellbeing via Activity Tracking"
               target="_blank"
               hasArrow={true}
             />
             <CopyContainer>
               <Copy>
-                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Dibyendu Mishra,
-                Nicola Dell, Aditya Vashistha.{' '}
+                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Melissa Tan, Irene
+                Yang, Kexin Cheng, Ronica Peramsetty Michelle Shum, Yanira
+                Escamilla, Ariel C. Avgar, Madeline Sterling, Aditya Vashistha,
+                Nicola Dell.{' '}
                 <i>
-                  Proceedings of the 2024 ACM Conference on Human Factors in
-                  Computing Systems (CHI '24)
+                  Proceedings of the 2025 ACM Conference on Computer-Supported
+                  Cooperative Work and Social Computing (CSCW '25)
                 </i>
                 .
               </Copy>
@@ -46,8 +48,8 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/ct-diagram.png"
-            alt="An image of a triple Venn diagram: social science, engineering, and design. With contextual transparency as the overlapping center."
+            src="/assets/images/hcw-phone.png"
+            alt="An image of a home care worker looking over a patient's shoulder at their phone."
             style={{ objectFit: 'cover' }}
             fill={true}
             sizes="640px"
@@ -56,16 +58,21 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/Contextual-Transparency-Nature23.pdf"
-              copy="Introducing Contextual Transparency for Automated Decision Systems"
+              href="/assets/documents/AI-In-HCW-CHI25.pdf"
+              copy="“Who is running it?” Towards Equitable AI Deployment in Home Care Work"
               target="_blank"
               hasArrow={true}
             />
             <CopyContainer>
               <Copy>
-                Mona Sloane, <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Jun
-                Yuan, Aritra Dasgupta, Julia Stoyanovich.{' '}
-                <i>Nature Machine Intelligence (March 2023)</i>.
+                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Melissa Tan, Joy
+                Ming, Ariel C. Avgar, Aditya Vashistha, Madeline Sterling,
+                Nicola Dell.{' '}
+                <i>
+                  Proceedings of the 2025 ACM Conference on Human Factors in
+                  Computing Systems (CHI '25)
+                </i>
+                .
               </Copy>
             </CopyContainer>
           </Content>
@@ -146,7 +153,6 @@ const Emphasis = styled.span`
 
 const Anchor = styled(Link)`
   color: ${({ theme: { colors } }) => colors.primary};
-  cursor: url('icons/pointer.svg'), pointer;
   display: block;
   font-family: ${({ theme: { fonts } }) => fonts.secondary};
   font-size: ${({ theme: { spacing } }) => spacing[2]};

@@ -39,13 +39,7 @@ const Home = () => (
         target="_blank"
         copy="Dr. Deborah Estrin"
       />
-      . I am also a member of the{' '}
-      <CustomLink
-        href="https://www.ilr.cornell.edu/carow/incubator/home-care-work/"
-        target="_blank"
-        copy="Initiative on Home Care Work"
-      />{' '}
-      at Cornell.
+      .
     </Copy>
     <Copy>
       My research lies at the intersection of human-computer interaction (

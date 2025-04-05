@@ -34,7 +34,7 @@ export const PUBLICATIONS = {
         'Nicola Dell',
       ],
       venue:
-        'Proceedings of the 2025 ACM Conference on Human Factors in Computing Systems (CHI ‘25).',
+        "Proceedings of the 2025 ACM Conference on Human Factors in Computing Systems (CHI '25).",
       orderOfAppearance: 0,
       link: '/assets/documents/AI-In-HCW-CHI25.pdf',
     },
