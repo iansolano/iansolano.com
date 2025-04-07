@@ -11,8 +11,8 @@ const CurrentResearch = () => (
     <SecondaryType>Current Research</SecondaryType>
     <ImageContainer>
       <Image
-        src="/assets/images/current-research.png"
-        alt="Interactive focus group with home care workers who are using smart glasses for hands-free wound care."
+        src="/assets/images/home-health-care.png"
+        alt="Focus group with home care workers reviewing interview artifacts."
         style={{ objectFit: 'cover' }}
         fill={true}
         sizes="1280px"
