@@ -13,11 +13,11 @@ const PublicationsList = () => (
     <List>
       {Object.keys(PUBLICATIONS)
         .sort((a, b) => Number(b) - Number(a))
-        .map((year, _) =>
-          PUBLICATIONS[year].map(
-            ({ title, authors, venue, orderOfAppearance, link }, index) => (
-              <ListItem key={title}>
-                {index == 0 && <Year>{year}</Year>}
+        .map((year, _) => (
+          <ListItem>
+            <Year>{year}</Year>
+            {PUBLICATIONS[year].map(
+              ({ title, authors, venue, orderOfAppearance, link }) => (
                 <SubList>
                   <SubListItem>
                     <CustomLink
@@ -42,10 +42,10 @@ const PublicationsList = () => (
                     </Copy>
                   </SubListItem>
                 </SubList>
-              </ListItem>
-            )
-          )
-        )}
+              )
+            )}
+          </ListItem>
+        ))}
     </List>
   </WrapperExtended>
 );
@@ -63,14 +63,13 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  border-top: ${({ theme: { borderWidths, colors } }) =>
+  border-bottom: ${({ theme: { borderWidths, colors } }) =>
     `${borderWidths[1]} solid ${colors.primaryLighten}`};
-  padding: ${({ theme: { spacing } }) => `${spacing[3]} 0`};
 `;
 
 const SubList = styled.ul`
   list-style-type: none;
-  padding: ${({ theme: { spacing } }) => `${spacing[3]} 0`};
+  padding: 0;
   width: ${({
     theme: {
       percentages: { full },
@@ -89,6 +88,7 @@ const SubList = styled.ul`
 const SubListItem = styled.li`
   font-size: ${({ theme: { spacing } }) => spacing[3]};
   line-height: ${({ theme: { lineHeight } }) => lineHeight[1]};
+  padding-bottom: ${({ theme: { spacing } }) => spacing[3]};
 `;
 
 const Year = styled.h2`
@@ -98,6 +98,7 @@ const Year = styled.h2`
   font-weight: ${({ theme: { fontWeights } }) => fontWeights[3]};
   line-height: ${({ theme: { lineHeight } }) => lineHeight[0]};
   margin: 0;
+  padding: ${({ theme: { spacing } }) => `${spacing[3]} 0`};
 `;
 
 const Copy = styled.p`
