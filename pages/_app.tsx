@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from 'styled-components';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
@@ -13,6 +14,7 @@ const App = ({ Component, pageProps }: AppProps) => (
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
       <GoogleAnalytics gaId="G-05D8BMHH8Y" />
+      <SpeedInsights />
     </ThemeProvider>
   </>
 );
