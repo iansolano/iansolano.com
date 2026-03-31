@@ -11,8 +11,8 @@ const CurrentResearch = () => (
     <SecondaryType>Current Research</SecondaryType>
     <ImageContainer>
       <Image
-        src="/assets/images/home-health-care.png"
-        alt="Focus group with home care workers reviewing interview artifacts."
+        src="/assets/images/hcw-phone.png"
+        alt="Image of a home care worker looking over a patient's shoulder at their phone."
         style={{ objectFit: 'cover' }}
         fill={true}
         sizes="1280px"
@@ -34,9 +34,8 @@ const CurrentResearch = () => (
         </Copy>
         <Copy>
           My current research focuses on the responsible design, development,
-          and deployment of AI agents to improve care coordination between
-          informal caregivers, home healthcare workers, and healthcare
-          providers.
+          and deployment of conversational AI agents to support care
+          coordination between home care workers and family caregivers.
         </Copy>
       </>
     </CopyContent>
