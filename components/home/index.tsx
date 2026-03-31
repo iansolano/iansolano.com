@@ -49,8 +49,8 @@ const Home = () => (
       systems that enable positive social transformation for underserved
       communities. Specifically, my work centers on computing in high-stakes
       healthcare settings, with a particular focus on developing novel AI and
-      data-driven systems to support formal and informal caregivers and the
-      older adults they care for.
+      data-driven systems to support formal and informal caregivers as well as
+      the older adults they care for.
     </Copy>
     <Copy>
       Before joining Cornell, I earned an M.S. in Computer Science from{' '}
