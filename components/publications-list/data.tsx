@@ -1,5 +1,72 @@
 export const PUBLICATIONS = {
+  2026: [
+    {
+      title:
+        'Sharing the Care: Investigating How Conversational AI Might Facilitate Coordination Among Home Care Workers and Family Caregivers',
+      authors: [
+        'Ian René Solano-Kamaiko',
+        'Ariel C. Avgar',
+        'Madeline Sterling',
+        'Aditya Vashistha',
+        'Nicola Dell',
+      ],
+      venue:
+        "Proceedings of the 2026 ACM Conference on Human Factors in Computing Systems (CHI '26).",
+      orderOfAppearance: 0,
+      link: '/assets/documents/AI-Agents-For-Care-Coordination-CHI26.pdf',
+    },
+    {
+      title:
+        'Feasibility, Acceptability, and Perspectives Regarding the Use of Activity Tracking Wearable Devices Among Home Health Aides: Mixed Methods Study',
+      authors: [
+        'Ian René Solano-Kamaiko',
+        'Michael Dicinigaitis',
+        'Melissa Tan',
+        'Irene Yang',
+        'Kexin Cheng',
+        'Ronica Peramsetty',
+        'Michelle Shum',
+        'Yanira Escamilla',
+        'Jennifer Bayly',
+        'Meghan Reading Turchioe',
+        'Ariel Avgar',
+        'Aditya Vashistha',
+        'Nicola Dell',
+        'Madeline R. Sterling',
+      ],
+      venue: 'Journal of Medical Internet Research (2026).',
+      orderOfAppearance: 0,
+      link: '/assets/documents/Activity-Tracking-For-HCWs-JMIR26.pdf',
+    },
+  ],
   2025: [
+    {
+      title:
+        'iMprovIng the meNtal hEalth of home healTh AiDeS: A study protocol for the MINDSET study.',
+      authors: [
+        'Madeline R. Sterling',
+        'Michelle Shum',
+        'Ronica Peramsetty',
+        'Joselyne Aucapina',
+        'Faith Wiggins',
+        'Carmen Colon',
+        'Joanna Bryan Ringel',
+        'Ariel C. Avgar',
+        'Nicola Dell',
+        'Bibi N. Habib',
+        'Samprit Banerjee',
+        'Emma Tsui',
+        'Susan J. Andreae',
+        'Elissa Kozlov',
+        'Courtney Landis',
+        'Ian René Solano-Kamaiko',
+        'Monika M. Safford',
+      ],
+      venue: 'Contemporary Clinical Trials (2025).',
+      orderOfAppearance: 15,
+      link:
+        '/assets/documents/MINDSET-Study-Contemporary-Clinical-Trials25.pdf',
+    },
     {
       title:
         "“This is eye opening:” Raising Awareness of Home Care Workers' Health and Wellbeing via Activity Tracking",
