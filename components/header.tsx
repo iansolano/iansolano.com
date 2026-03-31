@@ -11,13 +11,15 @@ import { px2rem, media } from '../styles/style-utils';
 const Header = () => (
   <Container>
     <ImageContainer>
-      <Image
-        src="/assets/images/headshot.png"
-        alt="Headshot of Ian Solano-Kamaiko"
-        style={{ objectFit: 'cover' }}
-        fill={true}
-        sizes="120px"
-      />
+      <Anchor href="/">
+        <Image
+          src="/assets/images/headshot.png"
+          alt="Headshot of Ian Solano-Kamaiko"
+          style={{ objectFit: 'cover' }}
+          fill={true}
+          sizes="120px"
+        />
+      </Anchor>
     </ImageContainer>
     <div>
       <Spacer>
