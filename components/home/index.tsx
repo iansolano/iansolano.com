@@ -48,9 +48,8 @@ const Home = () => (
       ), and digital health equity. I design, build, and evaluate sociotechnical
       systems that enable positive social transformation for underserved
       communities. Specifically, my work centers on computing in high-stakes
-      healthcare settings, with an aim at addressing how social determinants of
-      health contribute to inequities faced by community and home healthcare
-      workers.
+      healthcare settings, with a particular focus on supporting formal and
+      informal caregivers and the older adults they care for.
     </Copy>
     <Copy>
       Before joining Cornell, I earned an M.S. in Computer Science from{' '}
@@ -82,7 +81,7 @@ const Home = () => (
       />{' '}
       and building software to help{' '}
       <CustomLink
-        href="https://www.hiclark.com/"
+        href="https://techcrunch.com/2019/09/17/tutoring-business-in-a-box-service-clark-has-been-acquired-by-edtech-startup-noodle/"
         target="_blank"
         copy="educators become entrepreneurs"
       />
