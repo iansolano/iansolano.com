@@ -48,8 +48,9 @@ const Home = () => (
       ), and digital health equity. I design, build, and evaluate sociotechnical
       systems that enable positive social transformation for underserved
       communities. Specifically, my work centers on computing in high-stakes
-      healthcare settings, with a particular focus on supporting formal and
-      informal caregivers and the older adults they care for.
+      healthcare settings, with a particular focus on developing novel AI and
+      data-driven systems to support formal and informal caregivers and the
+      older adults they care for.
     </Copy>
     <Copy>
       Before joining Cornell, I earned an M.S. in Computer Science from{' '}
