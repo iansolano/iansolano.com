@@ -14,8 +14,8 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/activity-tracker.png"
-            alt="An image of a home care worker interacting with an activity tracker wristband."
+            src="/assets/images/agent-status-update.png"
+            alt="An image of a home care worker interacting with an AI agent."
             style={{ objectFit: 'cover' }}
             fill={true}
             sizes="640px"
@@ -24,20 +24,18 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/Activity-Tracking-For-HCWs-CSCW25.pdf"
-              copy="“This is eye opening:” Raising Awareness of Home Care Workers' Health and Wellbeing via Activity Tracking"
+              href="/assets/documents/AI-Agents-For-Care-Coordination-CHI26.pdf"
+              copy="Sharing the Care: Investigating How Conversational AI Might Facilitate Coordination Among Home Care Workers and Family Caregivers"
               target="_blank"
               hasArrow={true}
             />
             <CopyContainer>
               <Copy>
-                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Melissa Tan, Irene
-                Yang, Kexin Cheng, Ronica Peramsetty Michelle Shum, Yanira
-                Escamilla, Ariel C. Avgar, Madeline Sterling, Aditya Vashistha,
-                Nicola Dell.{' '}
+                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Ariel C. Avgar,
+                Madeline Sterling, Aditya Vashistha, Nicola Dell.{' '}
                 <i>
-                  Proceedings of the 2025 ACM Conference on Computer-Supported
-                  Cooperative Work and Social Computing (CSCW '25)
+                  Proceedings of the 2026 ACM Conference on Human Factors in
+                  Computing Systems (CHI '26)
                 </i>
                 .
               </Copy>
@@ -48,8 +46,8 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/hcw-phone.png"
-            alt="An image of a home care worker looking over a patient's shoulder at their phone."
+            src="/assets/images/activity-tracker.png"
+            alt="An image of a home care worker interacting with an activity tracker wristband."
             style={{ objectFit: 'cover' }}
             fill={true}
             sizes="640px"
@@ -58,21 +56,19 @@ const RecentPublications = () => (
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/AI-In-HCW-CHI25.pdf"
-              copy="“Who is running it?” Towards Equitable AI Deployment in Home Care Work"
+              href="/assets/documents/Activity-Tracking-For-HCWs-JMIR26.pdf"
+              copy="Feasibility, Acceptability, and Perspectives Regarding the Use of Activity Tracking Wearable Devices Among Home Health Aides: Mixed Methods Study"
               target="_blank"
               hasArrow={true}
             />
             <CopyContainer>
               <Copy>
-                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Melissa Tan, Joy
-                Ming, Ariel C. Avgar, Aditya Vashistha, Madeline Sterling,
-                Nicola Dell.{' '}
-                <i>
-                  Proceedings of the 2025 ACM Conference on Human Factors in
-                  Computing Systems (CHI '25)
-                </i>
-                .
+                <Emphasis>Ian René Solano-Kamaiko</Emphasis>, Michael
+                Dicinigaitis, Melissa Tan, Irene Yang, Kexin Cheng, Ronica
+                Peramsetty, Michelle Shum, Yanira Escamilla, Jennifer Bayly,
+                Meghan Reading Turchioe, Ariel Avgar, Aditya Vashistha, Nicola
+                Dell, Madeline R. Sterling.{' '}
+                <i>Journal of Medical Internet Research (2026)</i>.
               </Copy>
             </CopyContainer>
           </Content>
