@@ -13,7 +13,7 @@ const App = ({ Component, pageProps }: AppProps) => (
     <GlobalStyle />
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
-      <GoogleAnalytics gaId="G-05D8BMHH8Y" />
+      <GoogleAnalytics gaId='G-05D8BMHH8Y' />
       <SpeedInsights />
     </ThemeProvider>
   </>

@@ -42,7 +42,7 @@ export const PUBLICATIONS = {
   2025: [
     {
       title:
-        'iMprovIng the meNtal hEalth of home healTh AiDeS: A study protocol for the MINDSET study.',
+        'iMprovIng the meNtal hEalth of home healTh AiDeS: A study protocol for the MINDSET study',
       authors: [
         'Madeline R. Sterling',
         'Michelle Shum',
@@ -64,8 +64,7 @@ export const PUBLICATIONS = {
       ],
       venue: 'Contemporary Clinical Trials (2025).',
       orderOfAppearance: 15,
-      link:
-        '/assets/documents/MINDSET-Study-Contemporary-Clinical-Trials25.pdf',
+      link: '/assets/documents/MINDSET-Study-Contemporary-Clinical-Trials25.pdf',
     },
     {
       title:

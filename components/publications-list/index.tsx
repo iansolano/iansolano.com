@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import CustomLink from '../custom-link';
 import Wrapper from '../wrapper';
 
-import { px2rem, media } from '../../styles/style-utils';
+import { media } from '../../styles/style-utils';
 
 import { PUBLICATIONS } from './data';
 
@@ -13,22 +13,22 @@ const PublicationsList = () => (
     <List>
       {Object.keys(PUBLICATIONS)
         .sort((a, b) => Number(b) - Number(a))
-        .map((year, _) => (
-          <ListItem>
+        .map((year, index) => (
+          <ListItem key={index}>
             <Year>{year}</Year>
             {PUBLICATIONS[year].map(
               ({ title, authors, venue, orderOfAppearance, link }) => (
-                <SubList>
+                <SubList key={title}>
                   <SubListItem>
                     <CustomLink
                       href={link}
                       copy={title}
-                      target="_blank"
+                      target='_blank'
                       hasArrow={true}
                     />
                     <Copy>
                       {authors.map((name, index) => (
-                        <>
+                        <span key={index}>
                           <Author
                             key={name}
                             emphasized={orderOfAppearance == index}
@@ -36,13 +36,13 @@ const PublicationsList = () => (
                             {name}
                           </Author>
                           <>, </>
-                        </>
+                        </span>
                       ))}
                       <i>{venue}</i>
                     </Copy>
                   </SubListItem>
                 </SubList>
-              )
+              ),
             )}
           </ListItem>
         ))}

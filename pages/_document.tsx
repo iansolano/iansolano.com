@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
@@ -32,35 +33,35 @@ class AppDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang='en'>
         <Head>
           <link
-            rel="preload"
-            href="/fonts/Wremena-Light.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
+            rel='preload'
+            href='/fonts/Wremena-Light.woff2'
+            as='font'
+            type='font/woff2'
+            crossOrigin='anonymous'
           />
           <link
-            rel="preload"
-            href="/fonts/PitchSans-Medium.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
+            rel='preload'
+            href='/fonts/PitchSans-Medium.woff2'
+            as='font'
+            type='font/woff2'
+            crossOrigin='anonymous'
           />
           <link
-            rel="preload"
-            href="/fonts/Syne-Regular.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
+            rel='preload'
+            href='/fonts/Syne-Regular.woff2'
+            as='font'
+            type='font/woff2'
+            crossOrigin='anonymous'
           />
           <link
-            rel="preload"
-            href="/fonts/Syne-Bold.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
+            rel='preload'
+            href='/fonts/Syne-Bold.woff2'
+            as='font'
+            type='font/woff2'
+            crossOrigin='anonymous'
           />
         </Head>
         <body>

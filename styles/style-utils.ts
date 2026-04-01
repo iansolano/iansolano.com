@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { css, ThemedCssFunction } from 'styled-components';
 import theme, { ThemeProps } from './theme';
 
@@ -19,7 +20,7 @@ export const media = (Object.keys(SIZES) as Array<keyof typeof SIZES>).reduce(
     `;
     return accumulator;
   },
-  {} as { [key in keyof typeof SIZES]: ThemedCssFunction<ThemeProps> }
+  {} as { [key in keyof typeof SIZES]: ThemedCssFunction<ThemeProps> },
 );
 
 export const px2rem = (px: number) => `${px / 16}rem`;

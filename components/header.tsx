@@ -11,13 +11,13 @@ import { px2rem, media } from '../styles/style-utils';
 const Header = () => (
   <Container>
     <ImageContainer>
-      <Anchor href="/">
+      <Anchor href='/'>
         <Image
-          src="/assets/images/headshot.png"
-          alt="Headshot of Ian Solano-Kamaiko"
+          src='/assets/images/headshot.png'
+          alt='Headshot of Ian Solano-Kamaiko'
           style={{ objectFit: 'cover' }}
           fill={true}
-          sizes="120px"
+          sizes='120px'
         />
       </Anchor>
     </ImageContainer>
@@ -34,11 +34,11 @@ const Header = () => (
       <SecondaryType>irs24 [at] cornell.edu</SecondaryType>
     </div>
     <Navigation>
-      <Anchor href="/">Home</Anchor>
-      <Anchor href="/publications">Publications</Anchor>
+      <Anchor href='/'>Home</Anchor>
+      <Anchor href='/publications'>Publications</Anchor>
       <Anchor
-        target="_blank"
-        href="/assets/documents/Ian-Rene-Solano-Kamaiko-CV.pdf"
+        target='_blank'
+        href='/assets/documents/Ian-Rene-Solano-Kamaiko-CV.pdf'
       >
         CV
       </Anchor>

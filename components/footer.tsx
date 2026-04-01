@@ -6,16 +6,16 @@ import { media } from '../styles/style-utils';
 const Footer = () => (
   <Container>
     <FooterWrapper>
-      <Link href="https://twitter.com/ianrsolano" target="_blank">
+      <Link href='https://twitter.com/ianrsolano' target='_blank'>
         twitter
       </Link>
       <Link
-        href="https://scholar.google.com/citations?user=SBXtb3gAAAAJ&hl=en"
-        target="_blank"
+        href='https://scholar.google.com/citations?user=SBXtb3gAAAAJ&hl=en'
+        target='_blank'
       >
         Google Scholar
       </Link>
-      <Link href="https://www.linkedin.com/in/iansolano/" target="_blank">
+      <Link href='https://www.linkedin.com/in/iansolano/' target='_blank'>
         linkedin
       </Link>
     </FooterWrapper>

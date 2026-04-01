@@ -11,11 +11,11 @@ const CurrentResearch = () => (
     <SecondaryType>Current Research</SecondaryType>
     <ImageContainer>
       <Image
-        src="/assets/images/hcw-phone.png"
+        src='/assets/images/hcw-phone.png'
         alt="Image of a home care worker looking over a patient's shoulder at their phone."
         style={{ objectFit: 'cover' }}
         fill={true}
-        sizes="1280px"
+        sizes='1280px'
       />
     </ImageContainer>
     <CopyContent>
@@ -25,9 +25,9 @@ const CurrentResearch = () => (
           I am part of a multidisciplinary research team at Cornell University
           working on the{' '}
           <CustomLink
-            href="https://www.ilr.cornell.edu/carow/incubator/home-care-work"
-            target="_blank"
-            copy="Initiative on Home Care Work"
+            href='https://www.ilr.cornell.edu/carow/incubator/home-care-work'
+            target='_blank'
+            copy='Initiative on Home Care Work'
           />
           . Our goal is to elevate the value of home care workers while
           improving their working conditions and patient outcomes.

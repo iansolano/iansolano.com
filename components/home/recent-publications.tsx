@@ -14,19 +14,19 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/agent-status-update.png"
-            alt="An image of a home care worker interacting with an AI agent."
+            src='/assets/images/agent-status-update.png'
+            alt='An image of a home care worker interacting with an AI agent.'
             style={{ objectFit: 'cover' }}
             fill={true}
-            sizes="640px"
+            sizes='640px'
           />
         </ImageContainer>
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/AI-Agents-For-Care-Coordination-CHI26.pdf"
-              copy="Sharing the Care: Investigating How Conversational AI Might Facilitate Coordination Among Home Care Workers and Family Caregivers"
-              target="_blank"
+              href='/assets/documents/AI-Agents-For-Care-Coordination-CHI26.pdf'
+              copy='Sharing the Care: Investigating How Conversational AI Might Facilitate Coordination Among Home Care Workers and Family Caregivers'
+              target='_blank'
               hasArrow={true}
             />
             <CopyContainer>
@@ -35,7 +35,7 @@ const RecentPublications = () => (
                 Madeline Sterling, Aditya Vashistha, Nicola Dell.{' '}
                 <i>
                   Proceedings of the 2026 ACM Conference on Human Factors in
-                  Computing Systems (CHI '26)
+                  Computing Systems (CHI &apos;26)
                 </i>
                 .
               </Copy>
@@ -46,19 +46,19 @@ const RecentPublications = () => (
       <ContentCard>
         <ImageContainer>
           <Image
-            src="/assets/images/activity-tracker.png"
-            alt="An image of a home care worker interacting with an activity tracker wristband."
+            src='/assets/images/activity-tracker.png'
+            alt='An image of a home care worker interacting with an activity tracker wristband.'
             style={{ objectFit: 'cover' }}
             fill={true}
-            sizes="640px"
+            sizes='640px'
           />
         </ImageContainer>
         <CopyContent>
           <Content>
             <CustomLink
-              href="/assets/documents/Activity-Tracking-For-HCWs-JMIR26.pdf"
-              copy="Feasibility, Acceptability, and Perspectives Regarding the Use of Activity Tracking Wearable Devices Among Home Health Aides: Mixed Methods Study"
-              target="_blank"
+              href='/assets/documents/Activity-Tracking-For-HCWs-JMIR26.pdf'
+              copy='Feasibility, Acceptability, and Perspectives Regarding the Use of Activity Tracking Wearable Devices Among Home Health Aides: Mixed Methods Study'
+              target='_blank'
               hasArrow={true}
             />
             <CopyContainer>
@@ -75,7 +75,7 @@ const RecentPublications = () => (
         </CopyContent>
       </ContentCard>
     </ContentWrapper>
-    <Anchor href="/publications">View All</Anchor>
+    <Anchor href='/publications'>View All</Anchor>
   </Container>
 );
 
