@@ -34,8 +34,9 @@ const CurrentResearch = () => (
         </Copy>
         <Copy>
           My current research focuses on the responsible design, development,
-          and deployment of conversational AI agents to support care
-          coordination between home care workers and family caregivers.
+          and deployment of a conversational AI system to support care
+          coordination among home care workers, family caregivers, and care
+          recipients.
         </Copy>
       </>
     </CopyContent>

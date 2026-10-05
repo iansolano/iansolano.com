@@ -15,7 +15,8 @@ const Home = () => (
       evaluating technologies for underserved communities.
     </Marquee>
     <Copy>
-      I am a Ph.D. student in the School of Computing and Information Science at{' '}
+      I am a Ph.D. candidate in the School of Computing and Information Science
+      at{' '}
       <CustomLink
         href='https://tech.cornell.edu/'
         target='_blank'
@@ -45,11 +46,10 @@ const Home = () => (
       My research lies at the intersection of human-computer interaction (
       <Alt>HCI</Alt>
       ), responsible artificial intelligence (<Alt>R/AI</Alt>
-      ), and digital health equity. I design, build, and evaluate sociotechnical
+      ), and digital health. I design, build, and evaluate sociotechnical
       systems that enable positive social transformation for underserved
-      communities. Specifically, my work centers on computing in high-stakes
-      healthcare settings, with a particular focus on developing novel AI and
-      data-driven systems to support formal and informal caregivers as well as
+      communities. Specifically, my work focuses on developing novel AI- and
+      data-driven systems to support formal and informal caregivers, as well as
       the older adults they care for.
     </Copy>
     <Copy>

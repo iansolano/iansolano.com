@@ -2,6 +2,57 @@ export const PUBLICATIONS = {
   2026: [
     {
       title:
+        'Training home health aides to become peer coaches in mental health and wellness: The MINDSET Study',
+      authors: [
+        'Ronica Peramsetty',
+        'Michelle Shum',
+        'Joselyne Aucapina',
+        'Joanna Bryan Ringel',
+        'Sarah R Young',
+        'Courtney Landis',
+        'Monika M Safford',
+        'Susan J Andreae',
+        'Yanira Escamilla',
+        'Faith Wiggins',
+        'Frances Sadler',
+        'Ian René Solano-Kamaiko',
+        'Jennifer Sugijanto',
+        'Abigail Shilvock',
+        'Iris Y Navarro Millan',
+        'Krittika Chowdhury',
+        'Madeline R Sterling',
+      ],
+      venue: 'Journal of Health Psychology (2026).',
+      orderOfAppearance: 11,
+      link: '/assets/documents/The-MINDSET-Study-JHP26',
+    },
+    {
+      title:
+        'Towards Participatory AI in Frontline Care Work: An Actionable Framework',
+      authors: ['Joy Ming', 'Ian René Solano-Kamaiko', 'Emily Tseng'],
+      venue:
+        "Proceedings of the 2025 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '26).",
+      orderOfAppearance: 1,
+      link: '/assets/documents/Participatory-AI-For-FCW-CSCW26',
+    },
+    {
+      title:
+        "Understanding Key Stakeholders' Perspectives Towards Artificial Intelligence in Home Care Work",
+      authors: [
+        'Ian René Solano-Kamaiko',
+        'Michael Dicinigaitis',
+        'Melissa Tan',
+        'Ariel C. Avgar',
+        'Aditya Vashistha',
+        'Nicola Dell',
+        'Madeline Sterling',
+      ],
+      venue: 'Journal of General Internal Medicine (2026).',
+      orderOfAppearance: 0,
+      link: '/assets/documents/AI-In-HCW-JGIM26',
+    },
+    {
+      title:
         'Sharing the Care: Investigating How Conversational AI Might Facilitate Coordination Among Home Care Workers and Family Caregivers',
       authors: [
         'Ian René Solano-Kamaiko',
