@@ -24,7 +24,7 @@ export const PUBLICATIONS = {
       ],
       venue: 'Journal of Health Psychology (2026).',
       orderOfAppearance: 11,
-      link: '/assets/documents/The-MINDSET-Study-JHP26',
+      link: '/assets/documents/The-MINDSET-Study-JHP26.pdf',
     },
     {
       title:
@@ -33,7 +33,7 @@ export const PUBLICATIONS = {
       venue:
         "Proceedings of the 2025 ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '26).",
       orderOfAppearance: 1,
-      link: '/assets/documents/Participatory-AI-For-FCW-CSCW26',
+      link: '/assets/documents/Participatory-AI-For-FCW-CSCW26.pdf',
     },
     {
       title:
@@ -49,7 +49,7 @@ export const PUBLICATIONS = {
       ],
       venue: 'Journal of General Internal Medicine (2026).',
       orderOfAppearance: 0,
-      link: '/assets/documents/AI-In-HCW-JGIM26',
+      link: '/assets/documents/AI-In-HCW-JGIM26.pdf',
     },
     {
       title:
